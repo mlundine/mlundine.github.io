@@ -1,1 +1,155 @@
-"Hello World" 
+<!-- wp:html -->
+<style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//www.arcgis.com/apps/Embed/index.html?webmap=516aef0c6ef34a3d80be8a20dfc0f0ab&amp;extent=-88.9539,33.6186,-63.6634,45.2782&amp;zoom=true&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark" style="color:#0000FF;text-align:left" target="_blank" rel="noopener">View larger map</a></small><br><iframe width="940" height="940" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="US East Coast Satellite Shoreline Trends" src="//www.arcgis.com/apps/Embed/index.html?webmap=516aef0c6ef34a3d80be8a20dfc0f0ab&amp;extent=-88.9539,33.6186,-63.6634,45.2782&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark"></iframe></div>
+<!-- /wp:html -->
+
+<p><style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style>
+</p>
+<div class="embed-container"><small><a style="color: #0000ff; text-align: left;" href="//www.arcgis.com/apps/Embed/index.html?webmap=b27d80c1e22f4bfabd3efe04b9e4d4f7&amp;extent=9.3696,43.6369,10.9503,44.3748&amp;zoom=true&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=dark" target="_blank" rel="noopener">View larger map</a></small><br><iframe title="Northern Tuscany Shoreline Trends with Timeseries Data" src="//www.arcgis.com/apps/Embed/index.html?webmap=b27d80c1e22f4bfabd3efe04b9e4d4f7&amp;extent=9.3696,43.6369,10.9503,44.3748&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=dark" width="940" height="940" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+
+<!-- wp:paragraph -->
+<p>These interactive maps display linear shoreline trends at cross-shore transects every 200 m along the Long Island, New Jersey Shore, Delmarva, North Carolina, South Carolina, and Northern Tuscany coast. Shorelines were extracted from Landsat 5, 7, 8, and Sentinel-2 satellite imagery. Cross-shore position timeseries were computed at each transect, after which a yearly running mean was applied to each timeseries before computation of the linear trend. Individual transect timeseries can be examined by clicking on a transect, scrolling to the bottom of its attributes, and then clicking on the timeseries image link. This will open a new browser window with the timeseries image. Raw timeseries data (with cross-shore position, timestamp, northings, and eastings) is downloadable as the first csv in the attribute table. The timestamped yearly mean csv is the second listed csv.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Data from Long Island, New Jersey, Delmarva, and Northern Tuscany were extracted using a <a href="https://www.github.com/mlundine/Shoreline_Extraction_GAN">generative adversarial network</a> whereas data from North Carolina and South Carolina were compiled and made publicly available by the United States Geological Survey in a larger <a href="https://cmgds.marine.usgs.gov/data-releases/datarelease/10.5066-P9W91314/">data release</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":993,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/03/studyareashist-683x1024.png" alt="" class="wp-image-993"/><figcaption class="wp-element-caption">This figure shows histograms (by region) of the linear trends depicted in the above maps. Also shown are some summary statistics computed on each region's data. </figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":1011,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill1984_1988-1024x831.png" alt="" class="wp-image-1011"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1012,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill1988_1992-1024x831.png" alt="" class="wp-image-1012"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1013,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill1992_1996-1024x831.png" alt="" class="wp-image-1013"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1014,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill1996_2000-1024x831.png" alt="" class="wp-image-1014"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1015,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill2000_2004-1024x831.png" alt="" class="wp-image-1015"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1016,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill2004_2008-1024x831.png" alt="" class="wp-image-1016"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1017,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill2008_2012-1024x831.png" alt="" class="wp-image-1017"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1018,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill2012_2016-1024x831.png" alt="" class="wp-image-1018"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1019,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/Broadkill2016_2020-1024x831.png" alt="" class="wp-image-1019"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>Take a look at how the trends change over time at Broadkill Beach. This beach received a large nourishment in 2015 and 2016. The sand was quickly removed by mother nature.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":1023,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_1984to1988-986x1024.png" alt="" class="wp-image-1023"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1025,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_1988to1992-986x1024.png" alt="" class="wp-image-1025"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1027,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_1992to1996-986x1024.png" alt="" class="wp-image-1027"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1026,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_1996to2000-986x1024.png" alt="" class="wp-image-1026"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1024,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_2000to2004-986x1024.png" alt="" class="wp-image-1024"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1029,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_2004to2008-986x1024.png" alt="" class="wp-image-1029"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1030,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_2008to2012-986x1024.png" alt="" class="wp-image-1030"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1028,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_2012to2016-986x1024.png" alt="" class="wp-image-1028"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1031,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/DelawareOceanside_2016to2020-986x1024.png" alt="" class="wp-image-1031"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph -->
+<p>Now take a look at how the trends change for all of Delaware's oceanside beaches (Cape Henlopen to Fenwick Island).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<iframe src="https://drive.google.com/file/d/1mrNEzK4lXIxWbm5x6meU34pnus7eNms7/preview" width="640" height="480" allow="autoplay"></iframe>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>Above is a video depicting the shoreline evolution of Cape Henlopen, DE, USA. The bottom panel shows the satellite shorelines over time, while the top panel shows a timeseries plot of the cross-shore distance at the transect indicated in the map (in black). The de-trended timeseries is in blue. Along this transect, there is long term growth of the spit (~5.4 m per year) on top of winter to summer patterns in beach width.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<iframe src="https://drive.google.com/file/d/1KqhFRCwLW-QE1kYEpxYZZE3rEtZAZUPx/preview" width="640" height="480" allow="autoplay"></iframe>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>Above is a video just showing shorelines and cross-shore positions since 2015. Here we can see a clear winter and summer oscillation in beach width. During the winter months, the beach gets hit by more powerful waves, causing erosion, whereas during the calmer summer months, the beach tends to recover and widen. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":1056,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://sites.udel.edu/mlundine/files/2023/05/CapeHenlopen_0_dft-1-1024x768.png" alt="" class="wp-image-1056"/><figcaption class="wp-element-caption">We can also clearly see this cycle if we transform the data into the frequency domain. Above is a power spectrum figure, computed on the de-trended timeseries of cross-shore position. We see a peak in the spectral density at a period of around 12 months, matching our observation that the end of the spit tends to oscillate in width in the summer and winter. This sort of summer/winter trend is fairly common and found in most of Delaware's estuarine and ocean-fronting beaches.</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:html -->
+<style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//www.arcgis.com/apps/Embed/index.html?webmap=d1aeb0e88db2453c8ba54372e60813bc&amp;extent=-75.8454,38.2101,-74.2648,38.9509&amp;zoom=true&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark" style="color:#0000FF;text-align:left" target="_blank" rel="noopener">View larger map</a></small><br><iframe width="940" height="940" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Delaware Oceanside LSTM Experiment Monthly Interval" src="//www.arcgis.com/apps/Embed/index.html?webmap=d1aeb0e88db2453c8ba54372e60813bc&amp;extent=-75.8454,38.2101,-74.2648,38.9509&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark"></iframe></div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>The above interactive map shows LSTM predicted shorelines at monthly intervals for the years 1984 to 2022. Additional layers, hidden by default, are extracted satellite shorelines (the observed data), projected shorelines 40 months beyond the last observed shoreline, confidence interval polygons for the LSTM outputs, and the cross-shore transects used to generate timeseries data for the LSTM model. The cross-shore positions from the extracted satellite shorelines were used to train an LSTM model to predict cross-shore positions along transects spaced every 30 m along this coastline. The first 80% of the extracted shorelines were used as training data, while the final 20% were used as validation data.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//www.arcgis.com/apps/Embed/index.html?webmap=38af638c13ae494395c3396daa0fc241&amp;extent=-75.1107,38.7834,-75.0613,38.8084&amp;zoom=true&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark" style="color:#0000FF;text-align:left" target="_blank" rel="noopener">View larger map</a></small><br><iframe width="940" height="940" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Cape Henlopen State Park Experiment 2" src="//www.arcgis.com/apps/Embed/index.html?webmap=38af638c13ae494395c3396daa0fc241&amp;extent=-75.1107,38.7834,-75.0613,38.8084&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark"></iframe></div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>The above interactive map shows the same as before but with LSTM predicted shorelines at three month intervals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//www.arcgis.com/apps/Embed/index.html?webmap=ce7b44287d1b487998d28444887b8f22&amp;extent=-75.1686,38.7335,-74.971,38.8335&amp;zoom=true&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark" style="color:#0000FF;text-align:left" target="_blank" rel="noopener">View larger map</a></small><br><iframe width="940" height="940" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Cape Henlopen Experiment 3" src="//www.arcgis.com/apps/Embed/index.html?webmap=ce7b44287d1b487998d28444887b8f22&amp;extent=-75.1686,38.7335,-74.971,38.8335&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark"></iframe></div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>The above map shows the same as before but with LSTM predicted shorelines at six-month intervals. The default shown layer contains LSTM outputs for the projected time period (2022 to 2042). </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//www.arcgis.com/apps/Embed/index.html?webmap=db5f822e63034c1cb66c1985ac0e5b57&amp;extent=-75.1399,38.7573,-75.0411,38.8073&amp;zoom=true&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark" style="color:#0000FF;text-align:left" target="_blank" rel="noopener">View larger map</a></small><br><iframe width="940" height="940" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Cape Henlopen State Park Experiment 4" src="//www.arcgis.com/apps/Embed/index.html?webmap=db5f822e63034c1cb66c1985ac0e5b57&amp;extent=-75.1399,38.7573,-75.0411,38.8073&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;legendlayers=true&amp;basemap_gallery=true&amp;disable_scroll=false&amp;theme=dark"></iframe></div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>The above map shows the same as before but with LSTM predicted shorelines at yearly intervals. The default shown layer contains LSTM outputs for the projected time period (2021 to 2061). </p>
+<!-- /wp:paragraph -->
